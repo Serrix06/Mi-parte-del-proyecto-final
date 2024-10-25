@@ -17,11 +17,11 @@ public class MenuPrincipal {
         Usuario usuarioLogueado = login.loguearse(nombreUsuario, contrasena, listaUsuarios);
 
         if (usuarioLogueado != null) {
-            // Continuar con las funcionalidades según el tipo de usuario
+            // continuar con las funcionalidades segun el tipo de usuario
             if ("bibliotecario".equals(usuarioLogueado.getTipoUsuario())) {
-                // Acciones específicas del bibliotecario
+                // acciones especificas del bibliotecario
             } else if ("socio".equals(usuarioLogueado.getTipoUsuario())) {
-                // Acciones específicas del socio
+                // acciones especificas del socio
             }
         }
     }
