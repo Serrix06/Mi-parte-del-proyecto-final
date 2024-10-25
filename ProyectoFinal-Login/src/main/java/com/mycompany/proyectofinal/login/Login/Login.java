@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 public class Login {
 
-    // Método para iniciar sesión
+    // mtodo para iniciar sesión
     public Usuario loguearse(String nombreUsuario, String contrasena, List<Usuario> listaUsuarios) {
         for (Usuario usuario : listaUsuarios) {
             if (usuario.getNombreUsuario().equals(nombreUsuario) && usuario.getContrasena().equals(contrasena)) {
